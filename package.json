@@ -26,6 +26,8 @@
   "devDependencies": {
     "babel-cli": "^6.4.0",
     "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.24.0",
     "babel-plugin-add-module-exports": "^0.1.2",
     "eslint": "^1.10.3",
     "eslint-config-airbnb": "^3.0.2",
@@ -33,18 +35,10 @@
     "eslint-plugin-react": "^3.14.0",
     "lodash": "^4.16.4",
     "mocha": "^2.3.4",
-    "pre-commit": "^1.1.2",
-    "read-package-tree": "^5.1.2"
+    "pre-commit": "^1.1.2"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.3.13",
-    "babel-register": "^6.24.0",
-    "debug": "^2.2.0",
     "find-root": "^1.0.0",
-    "get-pkg-repo": "^1.3.0",
-    "home-or-tmp": "^2.0.0",
-    "mkdirp": "^0.5.1",
-    "path-exists": "^2.1.0",
-    "read-package-tree": "^5.1.5"
+    "read-package-tree": "^5.1.2"
   }
 }
